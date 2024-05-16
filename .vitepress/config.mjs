@@ -15,6 +15,7 @@ export default defineConfig({
   description: "A ctf tutor program",
   head: [["link", { rel: "icon", href: "/CTFTutroialLogobyDesigner.png" }]],
   themeConfig: {
+    logo: "/CTFTutroialLogobyDesigner.png",
     nav: navi_config.nav,
     sidebar: navi_config.sidebar,
     socialLinks: navi_config.socialLinks,
