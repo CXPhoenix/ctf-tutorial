@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./.vitepress/theme/components/**/*.{vue,js,jsx}"],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
-
+  plugins: [require("daisyui")],
+};

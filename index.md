@@ -5,13 +5,16 @@ layout: home
 hero:
   name: "CTF Tutor"
   text: "A ctf tutor program"
-  tagline: My great project tagline
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  tagline: "教學集錦"
+  actions:
+    - theme: brand
+      text: 查看總覽
+      link: /all-tutor
+    - theme: alt
+      text: 開始 Web Exploitation
+      link: /web-exploitation/
+  image:
+    light: /CTFTutorialHomeImageByDellE.webp
+    dark: /CTFTutorialHomeImageDarkByDellE.webp
+    alt: CTF-Tutorial
 ---

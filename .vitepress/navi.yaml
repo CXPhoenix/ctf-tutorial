@@ -1,0 +1,13 @@
+nav:
+  - text: Home
+    link: /
+  - text: Web Exploitation
+    link: /web-exploitation/
+
+sidebar:
+  /web-exploitation/:
+    - text: Web Exploitation
+      items:
+        - text: README
+          link: /web-exploitation/
+socialLinks:
