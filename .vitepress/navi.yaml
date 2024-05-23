@@ -18,6 +18,12 @@ sidebar:
       items:
         - text: README
           link: /web-exploitation/
+        - text: Broken Access
+          items:
+            - text: README
+              link: /web-exploitation/access-control/
+            - text: 權限控制初探
+              link: /web-exploitation/access-control/what-is-access-control
   /forensics/:
     - text: Forensics
       items:
